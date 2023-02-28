@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Poppins:wght@200&display=swap");
+
+body {
+  background-color: #55c789;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+hr {
+  margin-top: 0;
+  width: 600px;
+}
+
+.underTittel {
+  font-family: "Poppins", sans-serif;
+  color: #05386b;
+}
+
+.konteiner {
+  color: white;
+}
+
+.tittel {
+  margin-top: 80px;
+  font-family: "Mulish", sans-serif;
+}
+
+.playerBtns {
+  margin: 0 auto;
+  background-color: #0a396957;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 80%;
+  text-align: center;
+}
+
+button {
+  font-size: 0;
+}
+
+button :hover {
+  transition-duration: 200ms;
+  transition-delay: 100ms;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+
+}
+
+.spiller {
+  float: left;
+  margin-left: 20%;
+}
+
+.maskin {
+  float: right;
+  margin-right: 20%;
+}
+
+.options {
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin: 50px 80px 50px 80px;
+}
